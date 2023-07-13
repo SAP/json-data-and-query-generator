@@ -24,7 +24,7 @@ To execute data and query generation based on the example scenario in `examples`
 
 with five processes.
 
-If other scenarios should be run, then specify paths to `schema.txt`, data.txt, and `config.json` as described in `pipeline.py --help`.
+If other scenarios should be run, then specify paths to `schema.txt`, `data.txt`, and `config.json` as described in `pipeline.py --help`.
 
 ## Citation
 
