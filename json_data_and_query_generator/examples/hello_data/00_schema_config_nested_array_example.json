@@ -1,0 +1,16 @@
+{
+    "forcedPaths": [
+        {
+            "path": [
+                "arr1[2]",
+                "arr2[3]",
+                "arrCont"
+            ],
+            "valueType": "random_number(1)"
+        }
+    ],
+    "lenFields": 10,
+    "numFields": 0,
+    "numLevels": 0,
+    "numSamples": 10
+}

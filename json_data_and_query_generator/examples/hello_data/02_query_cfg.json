@@ -1,0 +1,31 @@
+{
+    "collection": "my_collection",
+    "number_of_different_queries": 3,
+    "combinations_per_query": 3,
+    "projection": {
+        "forced": [
+            {
+                "path": [
+                    "a0"
+                ],
+                "fct": null
+            }
+        ],
+        "random": {
+            "number_total": [
+                0,
+                0
+            ]
+    }},
+    "where_clause": {
+        "probability": 1,
+        "operators": [
+            "AND",
+            "OR"
+        ],
+        "random": {
+            "number_total": [0,0]
+        },
+        "forced": []
+    }
+}

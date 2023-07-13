@@ -1,0 +1,1259 @@
+{
+    "failed": [
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "object"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "number"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "null"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "boolean"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "object", 
+            "string"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "number", 
+            "object"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "number", 
+            "number"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "number", 
+            "number"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "number", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "number", 
+            "boolean"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "object"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "number"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "null"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "boolean"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "array", 
+            "string"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "null", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "null", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "null", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "null", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "null", 
+            "object"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "null", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "null", 
+            "boolean"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "object"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "number"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "null"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "boolean"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "boolean", 
+            "string"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "string", 
+            "object"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "string", 
+            "object"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "string", 
+            "object"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "string", 
+            "object"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "string", 
+            "object"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "CONCAT(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "string", 
+            "array"
+        ], 
+        [
+            "ATAN2(:1, :2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "MOD(:1, :2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "POWER(:1, :2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "ROUND(:1, :2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "(:1)+(:2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "(:1)-(:2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "(:1)*(:2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "(:1)/(:2)", 
+            "string", 
+            "boolean"
+        ], 
+        [
+            "LOG(:1, :2)", 
+            "string", 
+            "boolean"
+        ]
+    ]
+}

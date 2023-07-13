@@ -1,0 +1,654 @@
+{
+    "SUM(:1)" : {
+        "array": "FAIL",
+        "boolean":"FAIL",
+        "null":"FAIL",
+        "number":"SUCCESS",
+        "object":"FAIL",
+        "string":"FAIL"
+    },
+    "COUNT(:1)" : {
+        "array": "FAIL",
+        "boolean":"FAIL",
+        "null":"FAIL",
+        "number":"SUCCESS",
+        "object":"FAIL",
+        "string":"FAIL"
+    },
+    "AVG(:1)" : {
+        "array": "FAIL",
+        "boolean":"FAIL",
+        "null":"FAIL",
+        "number":"SUCCESS",
+        "object":"FAIL",
+        "string":"FAIL"
+    },
+    "MIN(:1)" : {
+        "array": "FAIL",
+        "boolean":"FAIL",
+        "null":"FAIL",
+        "number":"SUCCESS",
+        "object":"FAIL",
+        "string":"FAIL"
+    },
+    "MAX(:1)" : {
+        "array": "FAIL",
+        "boolean":"FAIL",
+        "null":"FAIL",
+        "number":"SUCCESS",
+        "object":"FAIL",
+        "string":"FAIL"
+    },
+    "(:1)*(:2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "(:1)+(:2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "(:1)-(:2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "(:1)/(:2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "ABS(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "ACOS(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "ASIN(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "ATAN(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "ATAN2(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "CONCAT(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "SUCCESS", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "SUCCESS", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "SUCCESS", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "SUCCESS", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "COS(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "LENGTH(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "LN(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "LOG(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "LOWER(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "MOD(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "POWER(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "ROUND(:1, :2)": {
+        "array": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "boolean": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "null": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }, 
+        "number": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "FAIL", 
+            "string": "SUCCESS"
+        }, 
+        "object": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "FAIL", 
+            "number": "FAIL", 
+            "object": "FAIL", 
+            "string": "FAIL"
+        }, 
+        "string": {
+            "array": "FAIL", 
+            "boolean": "FAIL", 
+            "null": "SUCCESS", 
+            "number": "SUCCESS", 
+            "object": "SUCCESS", 
+            "string": "SUCCESS"
+        }
+    }, 
+    "SIN(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "TAN(:1)": {
+        "array": "", 
+        "boolean": "", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "TO_BIGINT(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "TO_DOUBLE(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }, 
+    "TO_VARCHAR(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "SUCCESS", 
+        "string": "SUCCESS"
+    }, 
+    "UPPER(:1)": {
+        "array": "", 
+        "boolean": "SUCCESS", 
+        "null": "SUCCESS", 
+        "number": "SUCCESS", 
+        "object": "", 
+        "string": "SUCCESS"
+    }
+}

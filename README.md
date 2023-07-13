@@ -1,37 +1,73 @@
-# SAP Repository Template
+## JSON Data and Query Generator
+The package `json_data_and_query_generator` contains tools to generate random `json` data and corresponding `SQL` queries.
+Each of these tools needs as an input a configuration in form of a `json` document describing the fixed structure of the data and the characteristic of the generated queries.
 
-Default templates for SAP open source repositories, including LICENSE, .reuse/dep5, Code of Conduct, etc... All repositories on github.com/SAP will be created based on this template.
+[...]
 
-## To-Do
+## Setup
+add usage + examples
 
-In case you are the maintainer of a new SAP open source project, these are the steps to do with the template files:
+```
+  pip install .
+```
 
-- Check if the default license (Apache 2.0) also applies to your project. A license change should only be required in exceptional cases. If this is the case, please change the [license file](LICENSE).
-- Enter the correct metadata for the REUSE tool. See our [wiki page](https://wiki.wdf.sap.corp/wiki/display/ospodocs/Using+the+Reuse+Tool+of+FSFE+for+Copyright+and+License+Information) for details how to do it. You can find an initial .reuse/dep5 file to build on. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository and be sure to run the REUSE tool to validate that the metadata is correct.
-- Adjust the contribution guidelines (e.g. add coding style guidelines, pull request checklists, different license if needed etc.)
-- Add information about your project to this README (name, description, requirements etc). Especially take care for the <your-project> placeholders - those ones need to be replaced with your project name. See the sections below the horizontal line and [our guidelines on our wiki page](https://wiki.wdf.sap.corp/wiki/display/ospodocs/Guidelines+for+README.md+file) what is required and recommended.
-- Remove all content in this README above and including the horizontal line ;)
+To execute data and query generation based on the example scenario in `examples` (default):
 
-***
+```
+  python -m json_data_and_query_generator --num-proc 5
+```
 
-# Our new open source project
+with five processes.
 
-## About this project
+If other scenarios should be run, then specify paths to schema.txt, data.txt, and config.json as described in `pipeline.py --help`.
 
-*Insert a short description of your project here...*
+TODOs:
 
-## Requirements and Setup
+- [x] examples outside
+- [x] windows file separator and FIXME: rm -rf
+- [] document usage bit better 
 
-*Insert a short description what is required to get your project running...*
+## Citation
 
-## Support, Feedback, Contributing
+For more documentation read the following documents. If you find this work useful for your research, please cite:
 
-This project is open to feature requests/suggestions, bug reports etc. via [GitHub issues](https://github.com/SAP/<your-project>/issues). Contribution and feedback are encouraged and always welcome. For more information about how to contribute, the project structure, as well as additional contribution information, see our [Contribution Guidelines](CONTRIBUTING.md).
+```
+@inproceedings{DBLP:conf/dbtest-ws/Belloni0SR22,
+  author       = {Stefano Belloni and
+                  Daniel Ritter and
+                  Marco Schr{\"{o}}der and
+                  Nils R{\"{o}}rup},
+  editor       = {Manuel Rigger and
+                  Pinar T{\"{o}}z{\"{u}}n},
+  title        = {DeepBench: Benchmarking {JSON} Document Stores},
+  booktitle    = {DBTest@SIGMOD '22: Proceedings of the 9th International Workshop of
+                  Testing Database Systems, Philadelphia, PA, USA, 17 June 2022},
+  pages        = {1--9},
+  publisher    = {{ACM}},
+  year         = {2022},
+  url          = {https://doi.org/10.1145/3531348.3532176},
+  doi          = {10.1145/3531348.3532176},
+  timestamp    = {Sun, 02 Oct 2022 15:58:56 +0200},
+  biburl       = {https://dblp.org/rec/conf/dbtest-ws/Belloni0SR22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+and / or the usage in systems:
 
-## Code of Conduct
-
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone. By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/SAP/.github/blob/main/CODE_OF_CONDUCT.md) at all times.
-
-## Licensing
-
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+```
+@article{DBLP:journals/dbsk/BelloniR22,
+  author       = {Stefano Belloni and
+                  Daniel Ritter},
+  title        = {Benchmarking {JSON} Document Stores in Practice},
+  journal      = {Datenbank-Spektrum},
+  volume       = {22},
+  number       = {3},
+  pages        = {217--226},
+  year         = {2022},
+  url          = {https://doi.org/10.1007/s13222-022-00425-y},
+  doi          = {10.1007/s13222-022-00425-y},
+  timestamp    = {Sat, 25 Feb 2023 21:35:08 +0100},
+  biburl       = {https://dblp.org/rec/journals/dbsk/BelloniR22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```

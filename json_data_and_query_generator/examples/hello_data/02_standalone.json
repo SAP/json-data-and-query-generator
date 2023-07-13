@@ -1,0 +1,15 @@
+{
+    "template": "SELECT {{MY_FCT}}({{MY_PATH}}) FROM collection",
+    "placeholders": {
+        "MY_FCT": [
+            "SIN",
+            "TAN",
+            "COS"
+        ],
+        "MY_PATH": [
+            "x",
+            "\"path\".\"to\".\"my\".\"var\""
+        ]
+    },
+    "combinations": "all"
+}

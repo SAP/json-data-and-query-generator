@@ -1,0 +1,32 @@
+{
+    "collection": "mycol",
+    "number_of_different_queries": 1,
+    "combinations_per_query": 3,
+    "projection": {
+        "forced": [
+            {
+                "fct": "TAN"
+            }
+        ],
+        "random": {
+            "number_total": [0,0],
+            "number_unary_fct": [0,0],
+            "number_binary_fct": [0,0],
+            "number_aggregate_fct": [0,0]
+        }
+    },
+    "where_clause": {
+        "operators": ["AND", "OR"],
+        "probability": 1,
+        "random": {
+            "number_total": [1,1]
+        },
+        "forced": [
+            [
+                "c0",
+                "b1"
+            ]
+        ]
+    },
+    "limit" : 5
+}

@@ -1,0 +1,42 @@
+
+
+{
+    "forcedPaths" : 
+                    [
+                        {
+                            "path": ["arr[3]", "arrContent"],
+                            "valueType":"random_number(3)"
+                        },
+                        {
+                            "path": ["b0"],
+                            "valueType":"random_number(3)"
+                        },
+                        {
+                            "path": ["c0", "a1"],
+                            "valueType":"word"
+                        },
+                        {
+                            "path": ["c0", "b1"],
+                            "valueType":"word",
+                            "operator": "eq",
+                            "value" : "other",
+                            "num" : 50
+                        },
+                        {
+                            "path": ["c0", "c1","a2"],
+                            "valueType":"random_number(5)"
+                        },
+                        {
+                            "path": ["c0", "c1","b2"],
+                            "valueType":"random_number(3)",
+                            "operator": "eq",
+                            "value" : "999",
+                            "num" : 50
+                        }
+                    ],
+    "numLevels" : 0,
+    "numFields" : 10,
+    "lenFields" : 10,
+    "numSamples" : 1000
+}
+
