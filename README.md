@@ -10,7 +10,8 @@ Each of these tools needs as an input a configuration in form of a `json` docume
 > Sample data sets and queries are available at [https://github.com/dritter-sap/deepbench_example_data_sets](https://github.com/dritter-sap/deepbench_example_data_sets).
 
 ## Setup
-add usage + examples
+
+Install prerequisites:
 
 ```
   pip install .
