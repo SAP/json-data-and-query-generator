@@ -1,8 +1,13 @@
 ## JSON Data and Query Generator
+
+The growing popularity of JSON as exchange and storage format in business and analytical applications led to its rapid dissemination, thus making a timely storage and processing of JSON documents crucial for organizations. Consequently, specialized JSON document stores are ubiquitously used for diverse domain-specific workloads, while a JSON-specific benchmark is missing.
+
+In this repository, we provide an example implementation of **DeepBench**, an extensible, scalable benchmark that addresses nested JSON data, as well as queries over JSON documents. DeepBench features configurable domain-independent (e. g., varying document sizes, concurrent users) and JSON-specific scale levels (e. g., object, array nesting).
+
 The package `json_data_and_query_generator` contains tools to generate random `json` data and corresponding `SQL` queries.
 Each of these tools needs as an input a configuration in form of a `json` document describing the fixed structure of the data and the characteristic of the generated queries.
 
-[...]
+Sample data sets and queries are available at `https://github.com/dritter-sap/deepbench_example_data_sets`.
 
 ## Setup
 add usage + examples
@@ -19,13 +24,7 @@ To execute data and query generation based on the example scenario in `examples`
 
 with five processes.
 
-If other scenarios should be run, then specify paths to schema.txt, data.txt, and config.json as described in `pipeline.py --help`.
-
-TODOs:
-
-- [x] examples outside
-- [x] windows file separator and FIXME: rm -rf
-- [] document usage bit better 
+If other scenarios should be run, then specify paths to `schema.txt`, data.txt, and `config.json` as described in `pipeline.py --help`.
 
 ## Citation
 
