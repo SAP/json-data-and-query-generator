@@ -7,8 +7,6 @@ In this repository, we provide an example implementation of **DeepBench**, an ex
 The package `json_data_and_query_generator` contains tools to generate random `json` data and corresponding `SQL` queries.
 Each of these tools needs as an input a configuration in form of a `json` document describing the fixed structure of the data and the characteristic of the generated queries.
 
-> Sample data sets and queries are available at [https://github.com/dritter-sap/deepbench_example_data_sets](https://github.com/dritter-sap/deepbench_example_data_sets).
-
 ## Setup
 
 Install prerequisites:
