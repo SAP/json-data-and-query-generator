@@ -24,6 +24,6 @@ setup(
       'jinjasql',
       'numpy',
       'MarkupSafe',
-      'jinja2==3.0.1',
+      'jinja2==3.1.3',
     ]
 )
